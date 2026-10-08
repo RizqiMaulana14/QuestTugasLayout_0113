@@ -7,4 +7,6 @@
     <color name="kuning">#F7E906</color>
     <color name="hitam">#FF000000</color>
     <color name="putih">#FFFFFFFF</color>
+
+    <color name="card_1">#717E82</color>
 </resources>
