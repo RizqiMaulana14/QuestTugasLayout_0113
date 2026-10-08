@@ -169,3 +169,10 @@ fun BiodataCard(
                         color = colorResource(id = R.color.putih)
                     )
                 }
+
+                Text(
+                    text = stringResource(id = alamat),
+                    fontSize = 13.sp,
+                    color = colorResource(id = R.color.hijau)
+                )
+            }
