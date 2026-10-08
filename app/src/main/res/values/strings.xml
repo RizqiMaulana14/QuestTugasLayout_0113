@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TugasPertemuan 4</string>
     <string name="prodi">School of Engineering</string>
+    <string name="univ">Massachusetts Institute of Technology</string>
 </resources>
