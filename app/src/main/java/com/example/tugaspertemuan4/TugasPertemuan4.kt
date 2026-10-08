@@ -176,3 +176,14 @@ fun BiodataCard(
                     color = colorResource(id = R.color.hijau)
                 )
             }
+
+            Image(
+                painter = painterResource(
+                    id = R.drawable.logo
+                ),
+                contentDescription = null,
+                modifier = Modifier.size(50.dp)
+            )
+        }
+    }
+}
