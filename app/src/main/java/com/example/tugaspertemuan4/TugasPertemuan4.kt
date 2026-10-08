@@ -100,3 +100,14 @@ fun Seluruh(
             warna = R.color.card_4,
             namaFont = FontFamily.Cursive
         )
+
+        Spacer(
+            modifier = Modifier.height(10.dp)
+        )
+
+        Text(
+            text = stringResource(R.string.copy),
+            fontSize = 12.sp
+        )
+    }
+}
