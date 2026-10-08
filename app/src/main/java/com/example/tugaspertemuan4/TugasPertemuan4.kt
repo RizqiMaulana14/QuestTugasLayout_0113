@@ -119,4 +119,13 @@ fun BiodataCard(
     alamat: Int,
     warna: Int,
     namaFont: FontFamily = FontFamily.Default
-)
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(98.dp),
+
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(warna)
+        )
+    )
