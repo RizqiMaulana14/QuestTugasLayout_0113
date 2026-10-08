@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.secondapp.Seluruh
 import com.example.tugaspertemuan4.ui.theme.TugasPertemuan4Theme
 
 class MainActivity : ComponentActivity() {
@@ -20,28 +21,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             TugasPertemuan4Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    Seluruh(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    TugasPertemuan4Theme {
-        Greeting("Android")
     }
 }
