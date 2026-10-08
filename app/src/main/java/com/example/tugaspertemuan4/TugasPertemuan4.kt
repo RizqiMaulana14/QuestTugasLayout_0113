@@ -30,4 +30,25 @@ import com.example.tugaspertemuan4.R
 @Composable
 fun Seluruh(
     modifier: Modifier = Modifier
-)
+) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(
+                horizontal = 20.dp,
+                vertical = 30.dp
+            ),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+
+        Text(
+            text = stringResource(id = R.string.prodi),
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold
+        )
+
+        Text(
+            text = stringResource(id = R.string.univ),
+            fontSize = 15.sp,
+            fontWeight = FontWeight.Bold
+        )
