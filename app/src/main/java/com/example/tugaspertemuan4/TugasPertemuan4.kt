@@ -161,3 +161,11 @@ fun BiodataCard(
                     fontFamily = namaFont,
                     color = colorResource(id = R.color.merah)
                 )
+
+                if (nomor != null) {
+                    Text(
+                        text = stringResource(id = nomor),
+                        fontSize = 13.sp,
+                        color = colorResource(id = R.color.putih)
+                    )
+                }
