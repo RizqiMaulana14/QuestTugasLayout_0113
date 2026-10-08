@@ -128,4 +128,22 @@ fun BiodataCard(
         colors = CardDefaults.cardColors(
             containerColor = colorResource(warna)
         )
-    )
+    ) {
+
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 20.dp),
+
+            verticalAlignment = Alignment.CenterVertically,
+
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+
+            Image(
+                painter = painterResource(
+                    id = R.drawable.logo
+                ),
+                contentDescription = null,
+                modifier = Modifier.size(50.dp)
+            )
