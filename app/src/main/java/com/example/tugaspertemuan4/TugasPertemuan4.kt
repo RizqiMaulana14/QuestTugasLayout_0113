@@ -147,3 +147,17 @@ fun BiodataCard(
                 contentDescription = null,
                 modifier = Modifier.size(50.dp)
             )
+
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(start = 20.dp)
+            ) {
+
+                Text(
+                    text = stringResource(id = nama),
+                    fontSize = 20.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = namaFont,
+                    color = colorResource(id = R.color.merah)
+                )
