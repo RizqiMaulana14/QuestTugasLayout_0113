@@ -52,3 +52,15 @@ fun Seluruh(
             fontSize = 15.sp,
             fontWeight = FontWeight.Bold
         )
+
+        Spacer(
+            modifier = Modifier.height(22.dp)
+        )
+
+        BiodataCard(
+            nama = R.string.nama_1,
+            nomor = null,
+            alamat = R.string.alamat_1,
+            warna = R.color.card_1,
+            namaFont = FontFamily.Cursive
+        )
