@@ -111,3 +111,12 @@ fun Seluruh(
         )
     }
 }
+
+@Composable
+fun BiodataCard(
+    nama: Int,
+    nomor: Int?,
+    alamat: Int,
+    warna: Int,
+    namaFont: FontFamily = FontFamily.Default
+)
