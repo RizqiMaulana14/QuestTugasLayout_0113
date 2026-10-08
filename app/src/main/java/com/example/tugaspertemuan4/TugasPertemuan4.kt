@@ -88,3 +88,15 @@ fun Seluruh(
             warna = R.color.card_3,
             namaFont = FontFamily.Cursive
         )
+
+        Spacer(
+            modifier = Modifier.height(10.dp)
+        )
+
+        BiodataCard(
+            nama = R.string.nama_4,
+            nomor = R.string.nomor_4,
+            alamat = R.string.alamat_4,
+            warna = R.color.card_4,
+            namaFont = FontFamily.Cursive
+        )
